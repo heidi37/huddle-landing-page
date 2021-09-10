@@ -82,9 +82,71 @@ p {
 
     body {
         background-image: url('../images/bg-desktop.svg');
+        padding: 65px 80px;
     }
 
     h1 {
-
+        font-size: 2.5rem;
+        margin-top: 25px;
     }
+
+    p {
+        font-size: 1.1rem;
+        padding-bottom: 15px;
+    }
+
+    #logo {
+        width: 200px;
+        padding: 0;
+    }
+
+    #main-image {
+        width: 695px;
+        float: left;
+        margin-top: 0;
+    }
+
+    .container {
+        padding-top: 50px;
+        margin-top: 80px;
+        height: 630px;
+        width: 100%;
+    }
+
+    #col-1 {
+        width: 50%;
+    }
+
+    #col-2 {
+        text-align: left;
+        /* padding: 20px 0 20px 20px; */
+        width: 40%;
+        float: right;
+    }
+
+    #register {
+        font-size: 1.1rem;
+        padding: 15px 65px;
+    }
+
+    aside {
+        float: right;
+    }
+
+    footer {
+        float: none;
+        width: 100%;
+    }
+
+    .social {
+        height: 21px;
+        width: 21px;
+        padding: 10px;
+        margin-top: 225px;
+    }
+    
+    .social:nth-of-type(2n) {
+        margin: 0 9px;
+    }
+
 }
