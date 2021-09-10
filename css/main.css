@@ -14,47 +14,57 @@ body {
     font-family: 'Open Sans', sans-serif;
     color: #ffffff;
     text-align: center;
-    padding: 20px;
+    padding: 30px;
+    margin: 0px;
 } 
 
 h1 {
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
+    font-size: 1.5rem;
+    margin-top: 50px;
 }
 
 p {
     font-weight: 400;
-    margin: 50px 0;
+    margin: 15px 0 30px;
+    padding: 0 8px;
+    line-height: 1.5;
 }
 
 #logo {
     float: left;
-    width: 150px;
+    width: 120px;
+    padding: 10px;
 }
 
 #main-image {
-    width: 225px;
+    width: 295px;
     margin-top: 50px;
 }
 
 #register {
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
-    font-size: 1rem;
+    font-size: .8rem;
     text-decoration: none;
     background: #ffffff;
     color: hsl(257, 40%, 49%);
-    padding: 10px 50px;
+    padding: 10px 80px;
     border-radius: 25px;
 }
 
 .social {
     border: .5px solid white;
-    margin-top: 100px;
-    height: 50px;
-    width: 50px;
-    padding: 20px;
+    margin-top: 70px;
+    height: 14px;
+    width: 14px;
+    padding: 6px;
     border-radius: 50%;
+}
+
+.social:nth-of-type(2n) {
+    margin: 0 7px;
 }
 
 .attribution { 
