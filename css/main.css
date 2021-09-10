@@ -4,13 +4,11 @@ html {
     font-size: 16px;
 }
 
-
 body {
     background: hsl(257, 40%, 49%);
     background-image: url('../images/bg-mobile.svg');
     background-position: center top;
     background-repeat: no-repeat;
-    /* background-size: cover; */
     font-family: 'Open Sans', sans-serif;
     color: #ffffff;
     text-align: center;
@@ -35,6 +33,8 @@ p {
     padding: 0 8px;
     line-height: 1.5;
 }
+
+/****** CLASS AND ID SELECTORS ******/
 
 #logo {
     float: left;
@@ -109,13 +109,13 @@ p {
         padding: 65px 80px;
     }
 
+    header {
+        width: 100%;
+    }
+
     h1 {
         font-size: 2.5rem;
         margin-top: 25px;
-    }
-
-    header {
-        width: 100%;
     }
 
     p {
@@ -128,17 +128,17 @@ p {
         padding: 0;
     }
 
-    #main-image {
-        width: 695px;
-        float: left;
-        margin-top: 0;
-    }
-
     .container {
         padding-top: 50px;
         margin-top: 80px;
         height: 630px;
         width: 100%;
+    }
+
+    #main-image {
+        width: 695px;
+        float: left;
+        margin-top: 0;
     }
 
     #col-1 {
@@ -157,15 +157,6 @@ p {
         padding: 15px 65px;
     }
 
-    aside {
-        float: right;
-    }
-
-    footer {
-        float: none;
-        width: 100%;
-    }
-
     .social {
         height: 21px;
         width: 21px;
@@ -175,6 +166,15 @@ p {
     
     .social:nth-of-type(2n) {
         margin: 0 9px;
+    }
+
+    aside {
+        float: right;
+    }
+
+    footer {
+        float: none;
+        width: 100%;
     }
 
 }
