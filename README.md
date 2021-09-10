@@ -82,8 +82,8 @@ I could have used flexbox or CSSgrid to build this page but it was such a simple
 ## Author
 
 - Website - [Heidi Fryzell](https://heidifryzell.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/heidi37)
-- Twitter - [@yourusername](https://www.twitter.com/heidifryz)
+- Frontend Mentor - [@heidi37](https://www.frontendmentor.io/profile/heidi37)
+- Twitter - [@HeidiFryz](https://www.twitter.com/heidifryz)
 
 
 
